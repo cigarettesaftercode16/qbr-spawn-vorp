@@ -1,0 +1,117 @@
+.container {
+    font-family: 'Monospace', Serif;
+}
+.spawn-locations {
+   text-transform: uppercase;
+   position: absolute;
+   min-width: 30vh;
+   width: 80vh;
+   max-width: 100vh;
+   top: 13vh;
+   left: 50vh;
+   background-color: #00000080;
+   box-shadow: rgb(0 0 0) 0px 3px 6px, rgb(0 0 0) 0px 3px 6px;
+   padding: 30px;
+   cursor: default;
+   transition: all 300ms ease 0s;
+   border-radius: 0px;
+   color: #c53131;
+   border: 1px solid #dc143cd1;
+}
+.spawn-information {
+    text-transform: uppercase;
+    position: absolute;
+    min-width: 80.1vh;
+    width: 30vh;
+    max-width: 100vh;
+    top: 68vh;
+    left: 50vh;
+    background-color: rgba(22, 25, 35, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 39px;
+    cursor: default;
+    transition: all 300ms ease 0s;
+    border-radius: 0px;
+    color: white;
+    border: 2px solid rgba(245, 245, 245, 0.81);
+}
+.spawn-information-header > p {
+    font-family: 'Monospace', Serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 1.5vh;
+}
+.location {
+    width: 100%;
+    margin-bottom: 15px;
+    transition: all 200ms ease 0s;
+    border-radius: 0.3vh;
+    cursor: pointer;
+}
+.location > p {
+    position: relative;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.8vh;
+}
+.v-btn.location:hover {
+    transition: all 300ms ease 0s;
+    background-color: rgba(67, 67, 67, 0.647) !important;
+}
+.selected {
+    background-color: rgb(220, 20, 60);
+}
+.submit-spawn {
+    width: 100%;
+    margin-top: 1.5vh;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid #00000080;
+    background-color: rgb(2 66 17) !important;
+}
+.submit-spawn > p {
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.6vh;
+    font-family: 'Monospace', Serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.submit-spawn:hover {
+    transition: all 0.2s ease 0s;
+}
+#spawn-label {
+    color: rgb(237, 237, 237);
+    font-weight: bold;
+}
+.loclabel {
+    width: auto;
+    height: 4vh;
+    transition: all 0.2s ease 0s;
+}
+
+.description {
+    font-size: 0.9em; /* Ukuran font yang lebih kecil */
+    color: gray; /* Warna teks abu-abu */
+}
+
+.loclabel > p {
+    font-family: 'Monospace', Serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 1.5vh;
+}
+ul.b {
+    list-style-type: square;
+}
